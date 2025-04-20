@@ -1,2 +1,2 @@
-Ignore os outros arquivos, o facebOok é o testo001 blz?
+Ignore os outros arquivos, o facebook é o testo001
 Hello World!
