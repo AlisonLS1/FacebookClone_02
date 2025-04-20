@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@import "colors";
+.cabeca{
+    padding: 8px;
+    background-color: $cinza-destaque;
+}
+.header-items{
+    display: flex;
+    gap: 14px;
+}
+.barra-pesquisa{
+    padding: 2px;
+    padding-top: 10px;
+    width: fit-content;
+    border-radius: 25px;
+    display: flex;
+    
+    font-size: small;
+    background-color: $cinza-input;
+}
+label{
+    margin-left: 3%;white-space: nowrap;
+}
+input{
+    height: 40px;
+    width: auto; 
+    flex-grow: 1;
+    margin-left: 5px;    background: transparent;
+    border: 0;
+}
+
+.topbar-buttons{
+    width: 111.59px;
+    height: 59px;
+    border-radius: 15px;
+    border: 0;
+    transition: background 0.4s;
+}
+.topbar-buttons:hover{
+    background-color: $hover-destaque;
+}
+
+.right-topbar-buttons{
+    width: 5%;
+    height: 9vh;
+    border-radius: 100px;
+    border: 0;
+    transition: background 0.4s;
+    margin-left: 15px;
+}
+.right-topbar-buttons:hover{
+    background-color: $hover-destaque;
+}
+@media screen and (max-width:1123px){
+    .right-topbar-buttons{
+        display: none;
+    }
+}
+@media screen and (max-width:896px){
+    .barra-pesquisa{
+        display: none;
+    }
+}
+@media screen and (max-width:604px){
+    .topbar-buttons{
+        display: none;
+    }
+    .header-items{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+.div-erro{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    font-family: 'Sora', sans-serif;
+    font-size: 150%;
+    padding: 2%;
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 30%;
+    background-color: $cinza-input;
+}
+.group-list{
+    position: relative;
+    display: flex;
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 30%;
+    cursor: pointer;
+    background-color: $cinza-input;
+}
+.group-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+.group-name{
+    margin-left: 5%;
+    font-family: 'Sora', sans-serif;
+    font-weight: 900;
+    font-size: 150%;
+}
+.group-user-count{
+    font-family: 'Sora', sans-serif;
+    font-weight: 900;
+}
+.fa-ghost{
+    margin-left: 20%;
+}

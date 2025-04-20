@@ -1,0 +1,28 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  position: relative;
+}
+
+button {
+  margin: 50px;
+  width: 196px;
+  height: 44.3px;
+  border: 2%;
+  border-color: #06121E;
+  background: none;
+  transition: background 0.4s;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #D94140;
+}
+
+.logo {
+  width: 100vh;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */

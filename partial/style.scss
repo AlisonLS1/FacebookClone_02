@@ -1,0 +1,30 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+}
+@import "color";
+
+
+button{
+    margin: 50px;
+    width: 196px;
+    height: 44.3px;
+    border: 2%;
+    border-color: $brand-darkest-blue;
+    background: none;
+    transition: background 0.4s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    color: #fff;
+    background-color: $aux-bright-red
+}
+.logo{
+    width: 100vh;
+    height: 100%;
+
+}
